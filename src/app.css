@@ -1,0 +1,68 @@
+.appRoot {
+  display: flex;
+  justify-content: center;
+}
+
+.pokemonNameInput{
+  width: 250px;
+  margin: auto;
+}
+
+.resultContainer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.frameBody {
+  display: flex;
+  flex-direction: column;
+  font-weight: 100;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contentLayer{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 20px;
+}
+
+.profilePic{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: large;
+}
+
+.statsGroup{
+  display: flex;
+}
+
+.hpStat{
+  margin-right: 10px;
+}
+
+.infoBar{
+  margin-top: 5px;
+  width: 95%;
+  background-color: #d8d169;
+  height: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 5px;
+  align-self: center;
+}
+
+.moveBody{
+  margin-top: 10px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
